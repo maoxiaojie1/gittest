@@ -21,7 +21,7 @@
     <ClInclude Include="targetver.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="SocketQueue.h">
+    <ClInclude Include="ThreadPool.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -29,10 +29,10 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="server.cpp">
+    <ClCompile Include="ThreadPoolTest.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="SocketQueue.cpp">
+    <ClCompile Include="ThreadPool.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
